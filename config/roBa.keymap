@@ -63,6 +63,16 @@
             bindings = <&kp RA(ENTER)>;
             key-positions = <18 19>;
         };
+
+        browsertab {
+            bindings = <&kp LS(LC(PG_UP))>;
+            key-positions = <3 2>;
+        };
+
+        browsertab1 {
+            bindings = <&kp LS(LC(PAGE_DOWN))>;
+            key-positions = <2 1>;
+        };
     };
 
     macros {
