@@ -65,12 +65,12 @@
         };
 
         browsertab {
-            bindings = <&kp LS(LC(PG_UP))>;
+            bindings = <&kp LC(TAB)>;
             key-positions = <3 2>;
         };
 
         browsertab1 {
-            bindings = <&kp LS(LC(PAGE_DOWN))>;
+            bindings = <&kp LS(LC(TAB))>;
             key-positions = <2 1>;
         };
     };
