@@ -81,12 +81,12 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                 &kp Y        &kp U    &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G             &kp LS(LG(S))        &kp MINUS      &kp H        &kp J    &kp K      &kp L    &kp ENTER
+&kp A             &kp S         &kp D         &kp F                        &kp G             &mkp MB3             &kp MINUS      &kp H        &kp J    &kp K      &kp L    &kp ENTER
 &mt LEFT_SHIFT Z  &kp X         &lt 4 C       &kp V                        &kp B             &kp EXCLAMATION      &kp QUESTION   &kp N        &lt 5 M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 1 LG(PERIOD)  &lt 5 ESC            &kp BACKSPACE  &lt 2 SPACE                               &kp AT_SIGN
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
         };
 
         FUNCTION {
