@@ -58,6 +58,11 @@
             bindings = <&lt 5 K_PLAY_PAUSE>;
             key-positions = <30 31>;
         };
+
+        altenter {
+            bindings = <&kp RA(ENTER)>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
