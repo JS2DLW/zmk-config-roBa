@@ -78,6 +78,11 @@
             bindings = <&lt 5 K_PLAY_PAUSE>;
             key-positions = <19 20>;
         };
+
+        burauzadet {
+            bindings = <&kp RC(W)>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
