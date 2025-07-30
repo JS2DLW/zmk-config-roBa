@@ -46,12 +46,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <13 14 12>;
+            key-positions = <13 14>;
         };
 
         tab2 {
             bindings = <&kp LS(TAB)>;
-            key-positions = <11 12>;
+            key-positions = <12 13>;
         };
 
         MOUS {
