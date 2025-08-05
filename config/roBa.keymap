@@ -130,7 +130,7 @@
 
         NUM {
             bindings = <
-&kp MINUS       &none          &kp LG(LC(LEFT))  &kp LG(LC(RIGHT))  &kp LG(T)                                                 &kp CARET         &kp AMPERSAND      &kp TILDE             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp MINUS       &none          &kp LG(LC(LEFT))  &kp LG(LC(RIGHT))  &kp LG(T)                                                 &kp CARET         &kp LEFT           &kp RIGHT             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LC(A)       &kp LG(LS(S))  &kp KP_NUMBER_5   &kp LC(F)          &kp LG(TAB)  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp DOLLAR            &kp PERCENT
 &kp LEFT_SHIFT  &none          &kp LC(C)         &kp LC(V)          &none        &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp HASH           &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp BACKSLASH
 &trans          &trans         &trans            &trans             &trans       &trans                       &trans          &trans                                                                           &kp PIPE
