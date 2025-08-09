@@ -83,6 +83,11 @@
             bindings = <&kp LC(LA(DELETE))>;
             key-positions = <30 31 32>;
         };
+
+        scroll {
+            bindings = <&lt 5 K_PLAY_PAUSE>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
